@@ -10,8 +10,7 @@
     --cor-texto-escuro: rgb(0,0,0);
     --cor-texto-claro: rgb(255,250,250);
 
-    /*--font-body: 'Dosis', sans-serif;*/
-    --font-body: 'Roboto', sans-serif;
+    --font-body: 'Dosis', sans-serif;
     --h1-font-size: 3rem;
     --h2-font-size: 2rem;
     --h3-font-size: 1.2rem;

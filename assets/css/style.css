@@ -1,0 +1,86 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* VARIAVEIS */
+:root {
+    --altura-cabecalho: 6rem;
+    --cor-primaria: rgb(65,105,225);
+    --cor-body: rgb(255,250,240);
+    --cor-texto-escuro: rgb(0,0,0);
+    --cor-texto-claro: rgb(255,250,250);
+
+    /*--font-body: 'Dosis', sans-serif;*/
+    --font-body: 'Roboto', sans-serif;
+    --h1-font-size: 3rem;
+    --h2-font-size: 2rem;
+    --h3-font-size: 1.2rem;
+    --normal-font-size: 1rem;
+    --pequena-font-size: 0.7rem;
+
+    --font-medium: 500;
+    --font-semi-bold: 600;
+}
+
+/* RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--cor-body);
+    font-size: var(--normal-font-size);
+}
+
+/* HEADER */
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: var(--cor-primaria);
+    align-items: center;
+    height: var(--altura-cabecalho);
+    text-transform: capitalize;
+}
+
+.logo {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__item {
+    padding-right: 1.5rem;
+}
+
+.menu__link {
+    color: var(--cor-texto-claro);
+    font-size: var(--h3-font-size);
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+    font-weight: var(--font-semi-bold);
+}

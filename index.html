@@ -1,195 +1,197 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>UFSCat</title>
-        <link rel="stylesheet" href="./assets/css/reset.css">
-        <link rel="stylesheet" href="./assets/css/style.css">
-    </head>
-    <body>
-        <!-- HEADER -->
-        <header class="cabecalho">
-            <h1 class="logo">UFSCat</h1>
-            <nav class="menu">
-                <ul class="menu__lista">
-                    <li class="menu__item"> <a href="#" class="menu__link">home</a> </li>
-                    <li class="menu__item"> <a href="#" class="menu__link">animais</a> </li>
-                    <li class="menu__item"> <a href="#" class="menu__link">quem somos</a> </li>
-                    <li class="menu__item"> <a href="#" class="menu__link">adote</a> </li>
-                </ul>
-            </nav>
-        </header>
+<html>
+  <head>
+    <title>UFSCat: adote seu gato hoje mesmo!</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/responsive.css"
+      media="screen and (max-width: 768px)"
+    />
 
-        <!-- MAIN -->
-        <main>
-            <!-- BANNER -->
-            <section class="banner">
-                <div class="banner__container">
-                    <div class="banner__descricao">
-                        <p class="banner__titulo">
-                            Adoção responsáveis de amigos felinos é aqui na UFSCat
-                        </p>
-                        <p class="banner__texto">
-                            Mais de 500 gatos já foram retirados das ruas e ganharam um novo lar e uma nova família.
-                        </p>
-                        <p class="banner__texto">
-                            Nesse exato momento, existem milhares de gatinhos esperando um humano para chamar de seu. Você pode mudar o destino de um animal de rua.
-                        </p>
-                        <p class="banner__texto">
-                            Não compre. Adote!
-                        </p>
-                        <button class="banner__botao" type="submit">
-                            Saiba mais sobre nossa ONG
-                        </button>
-                    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
 
-                    <div class="banner__img">
-                        <img src="./assets/imgs/Lovepik_com-400223182-the-back-of-a-group-of-cats.png" alt="banner de gatos" height="100%" width="100%">
-                    </div>
-                </div>
-            </section>
+  <body>
+    <header>
+      <div class="container">
+        <img
+          src="./assets/images/ufscat_logo.png"
+          alt="UFSCat"
+        />
+        <div class="menu-section">
+          <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Sobre nós</a>
+              </li>
+              <li>
+                <a href="#">Adote</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-           <!-- CARTÕES DOS GATOS -->
-            <section class="cartoes">
-                <p class="cartoes__titulo">
-                    Conheça seu novo amigo!
-                </p>
+    <section class="presentation">
+      <div class="container">
+        <div>
+          <h2>
+            Adoção responsavel de amigos felinos é aqui na UFSCat
+          </h2>
+          <p>
+            Mais de 500 gatos já foram retirados das ruas e ganharam um novo lar e uma nova família.
+            Nesse exato momento, existem milhares de gatinhos esperando um humano para chamar de seu. Você pode mudar o destino de um animal de rua.
+            Não compre. Adote!
+          </p>
+          <a href="#" class="button">Quero Adotar!!!</a>
+        </div>
+        <img
+          src="./assets/images/banner.png"
+          alt="Banner Cats"
+        />
+      </div>
+    </section>
 
-                <div class="cartoes__container">
+    <main>
 
-                    <div class="cartao">
-                        <img src="./assets/imgs/gato1.webp" alt="Gato 1" class="cartao__img">
-                        <div class="cartao__informacoes">
-                            <p class="gato__nome">Nome: </p>
-                            <p class="gato__informacao">Raça: </p>
-                            <p class="gato__informacao">Idade: </p>
-                            <p class="gato__informacao">Sexo: </p>
-                        </div>
-                    </div>
-
-                    <div class="cartao">
-                        <img src="./assets/imgs/gato2.webp" alt="Gato 2" class="cartao__img">
-                        <div class="cartao__informacoes">
-                            <p class="gato__nome">Nome: </p>
-                            <p class="gato__informacao">Raça: </p>
-                            <p class="gato__informacao">Idade: </p>
-                            <p class="gato__informacao">Sexo: </p>
-                        </div>
-                    </div>
-
-                    <div class="cartao">
-                        <img src="./assets/imgs/gato3.webp" alt="Gato 3" class="cartao__img">
-                        <div class="cartao__informacoes">
-                            <p class="gato__nome">Nome: </p>
-                            <p class="gato__informacao">Raça: </p>
-                            <p class="gato__informacao">Idade: </p>
-                            <p class="gato__informacao">Sexo: </p>
-                        </div>
-                    </div>
-
-                    <div class="cartao">
-                        <img src="./assets/imgs/gato4.jpg" alt="Gato 4" class="cartao__img">
-                        <div class="cartao__informacoes">
-                            <p class="gato__nome">Nome: </p>
-                            <p class="gato__informacao">Raça: </p>
-                            <p class="gato__informacao">Idade: </p>
-                            <p class="gato__informacao">Sexo: </p>
-                        </div>
-                    </div>
-
-                    <div class="cartao">
-                        <img src="./assets/imgs/gato5.jpg" alt="Gato 5" class="cartao__img">
-                        <div class="cartao__informacoes">
-                            <p class="gato__nome">Nome: </p>
-                            <p class="gato__informacao">Raça: </p>
-                            <p class="gato__informacao">Idade: </p>
-                            <p class="gato__informacao">Sexo: </p>
-                        </div>
-                    </div>
-
-                    <div class="cartao">
-                        <img src="" alt="" class="cartao__img">
-                        <div class="cartao__informacoes">
-                            <p class="gato__nome">Nome: </p>
-                            <p class="gato__informacao">Raça: </p>
-                            <p class="gato__informacao">Idade: </p>
-                            <p class="gato__informacao">Sexo: </p>
-                        </div>
-                    </div>
-
-                    <div class="cartao">
-                        <img src="" alt="" class="cartao__img">
-                        <div class="cartao__informacoes">
-                            <p class="gato__nome">Nome: </p>
-                            <p class="gato__informacao">Raça: </p>
-                            <p class="gato__informacao">Idade: </p>
-                            <p class="gato__informacao">Sexo: </p>
-                        </div>
-                    </div>
-
-                    <div class="cartao">
-                        <img src="" alt="" class="cartao__img">
-                        <div class="cartao__informacoes">
-                            <p class="gato__nome">Nome: </p>
-                            <p class="gato__informacao">Raça: </p>
-                            <p class="gato__informacao">Idade: </p>
-                            <p class="gato__informacao">Sexo: </p>
-                        </div>
-                    </div>
-
-                    <div class="cartao">
-                        <img src="" alt="" class="cartao__img">
-                        <div class="cartao__informacoes">
-                            <p class="gato__nome">Nome: </p>
-                            <p class="gato__informacao">Raça: </p>
-                            <p class="gato__informacao">Idade: </p>
-                            <p class="gato__informacao">Sexo: </p>
-                        </div>
-                    </div>
-
-                    <div class="cartao">
-                        <img src="" alt="" class="cartao__img">
-                        <div class="cartao__informacoes">
-                            <p class="gato__nome">Nome: </p>
-                            <p class="gato__informacao">Raça: </p>
-                            <p class="gato__informacao">Idade: </p>
-                            <p class="gato__informacao">Sexo: </p>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-
-            <!-- SOBRE A ONG -->
-            <section class="sobre">
-                <div class="sobre__video">
-                    <iframe width="420" height="237" src="https://www.youtube.com/embed/P_GEkaLuhKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-
-                <div class="sobre__informacoes">
-                    <p class="sobre__titulo">UFSCat trazendo felicidade aos lares desde 2019
-                    </p>
-
-                    <p class="sobre__texto">
-                        Ufscat é uma ONG fundada em 2019 por um grupo de estudantes da UFSCar com o propósito de resgatar gatos em situação de abandono, maus tratos, e em situação de rua e prepará-los para adoção responsável. 
-                    </p>
-
-                    <p class="sobre__texto">
-                        O motivo para a criação da ONG foi tendo em vista quantidade de gatos que encontram-se sem lar, e queríamos mostrar as pessoas o quanto a adoção consciente e responsável salva a vida dos animais e o quanto esses animais também nos salvam.
-                    </p>
-                </div>
-            </section>
-
-        </main>
-
-        <footer class="rodape">
-            <p class="rodape__texto">
-                UFSCat Copyright 2023 ©
+      <section class="cat-cards">
+        <a href="#">
+          <div class="cat-card">
+          <div class="image">
+            <img src="./assets/images/gato1.webp" />
+          </div>
+          <div class="content">
+            <p class="title text-md">
+              Furacão • 3 meses • abandonado na porta da Ong
             </p>
-        </footer>
+            <div class="details">
+              <p class="text-md">Femea</p>
+              <p class="cat-card-action text-md">Adotar</p>
+            </div>
+          </div>
+        </div>
+        </a>
 
-        
-    </body>
+        <a href="#">
+          <div class="cat-card">
+            <div class="image">
+              <img src="./assets/images/gato3.webp" />
+            </div>
+            <div class="content">
+              <p class="title text-md">
+                Tigresa • 1 ano • doada pelo ex dono
+              </p>
+              <div class="details">
+                <p class="text-md">Fêmea</p>
+                <p class="cat-card-action text-md">Adotar</p>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="cat-card">
+            <div class="image">
+              <img src="./assets/images/gato6.jpg" />
+            </div>
+            <div class="content">
+              <p class="title text-md">
+                Salem • 2 anos • encontrado no terreno de um armazem
+              </p>
+              <div class="details">
+                <p class="text-md">Macho</p>
+                <p class="cat-card-action text-md">Adotar</p>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="cat-card">
+            <div class="image">
+              <img src="./assets/images/gato7.webp" />
+            </div>
+            <div class="content">
+              <p class="title text-md">
+                Habbibs • 2 anos • Deixado na Ong quando filhote
+              </p>
+              <div class="details">
+                <p class="text-md">Macho</p>
+                <p class="cat-card-action text-md">Adotar</p>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="cat-card">
+            <div class="image">
+              <img src="./assets/images/gato8.webp" />
+            </div>
+            <div class="content">
+              <p class="title text-md">
+                Juca • 3 anos • Encontrado em um galpão.
+              </p>
+              <div class="details">
+                <p class="text-md">Macho</p>
+                <p class="cat-card-action text-md">Adotar</p>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="cat-card">
+            <div class="image">
+              <img src="./assets/images/gato9.jpg" />
+            </div>
+            <div class="content">
+              <p class="title text-md">
+                Tobby • 1 anos • Sem registros
+              </p>
+              <div class="details">
+                <p class="text-md">Macho</p>
+                <p class="cat-card-action text-md">Adotar</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </section>
+
+
+    </main>
+
+    <section id="footer">
+      <section class="presentation">
+        <div class="container">
+          <iframe width="420" 
+          height="237" 
+          src="https://www.youtube.com/embed/P_GEkaLuhKk" 
+          title="YouTube video player" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen
+          ></iframe>
+          <div>
+            <h1>
+              Ufscat é uma ONG fundada em 2019 por um grupo de estudantes da UFSCar com o propósito de resgatar gatos em situação de abandono, maus tratos, e em situação de rua e prepará-los para adoção responsável.
+            </h1>
+            <h1>
+              O motivo para a criação da ONG foi tendo em vista quantidade de gatos que encontram-se sem lar, e queríamos mostrar as pessoas o quanto a adoção consciente e responsável salva a vida dos animais e o quanto esses animais também nos salvam.
+            </h1>
+          </div>
+        </div>
+      </section>
+    </section>
+
+  </body>
 </html>

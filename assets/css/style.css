@@ -62,6 +62,12 @@ header .container {
   margin: auto;
 }
 
+@media (min-width: 540px) {
+    .menu-toggle {
+      display: none;
+    }
+}
+
 header img {
   width: 120px;
   margin-left: 20px;
@@ -142,8 +148,11 @@ section.presentation p {
 
 section.presentation .container > img {
   height: auto;
-  width: 60%;
-  object-fit:contain;
+  width: 100%;
+  min-width: 240px;
+  max-width: 320px;
+  object-fit: contain;
+  margin-left: 24px;
 }
 
 /*=============== 
@@ -178,6 +187,7 @@ CARDS
   background-color: var(--primary-color);
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  height: 100%;
 }
 
 .cat-card:hover {
@@ -200,7 +210,12 @@ CARDS
 }
 
 .content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 20px;
+
 }
 
 .title {
@@ -209,7 +224,6 @@ CARDS
 
 .details {
   display: flex;
-  align-self: end;
   align-items: center;
 }
 
@@ -234,8 +248,14 @@ FOOTER
   justify-content: center;
 }
 
-#footer p {
-  margin-bottom: 30px
+#footer iframe {
+  margin-right: 24px;
+  width: 420px;
+  height: 237px;
+}
+
+#footer .container {
+  margin: 0;
 }
 
 .form-group label.right-inline {

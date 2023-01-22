@@ -18,6 +18,8 @@ html {
     quando redimensionado a tela*/
     .presentation .container img {
         order: -1;
+        margin-left: auto !important;
+        margin-right: auto;
     }
 }
 
@@ -41,9 +43,17 @@ html {
     }
 
     .menu-toggle {
+        display: block;
         width: 40px;
         height: 30px;
         margin-right: 20px;
+        background-color: transparent;
+        border: 0;
+        
+    }
+
+    .menu-toggle:hover {
+        cursor: pointer; 
     }
 
     /* fullscreen */

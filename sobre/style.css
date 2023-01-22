@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+:root {
+  --primary-ufscar-theme-color: #F57F49;
+  --secundary-color: #DEB887;
+  --primary-color: #CD853F;
+  --primary-background-color: #F5DEB3;
+  --dark-text-color: rgb(0,0,0);
+  --light-text-color: rgb(255,255,255);
+
+  --primary-font-family: 'Dosis', sans-serif;
+  --h1-font-size: 3rem;
+  --h2-font-size: 2rem;
+  --h3-font-size: 1.2rem;
+  --default-font-size: 1rem;
+  --sm-font-size: 0.9rem;
+
+  --md-font-bold: 500;
+  --font-semi-bold: 600;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html {
+  /* a cada 1rem considera 10px */
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: var(--primary-font-family), "Source Sans Pro";
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--primary-background-color);
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  background-color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+}
+
+header img {
+  width: 120px;
+  margin-left: 20px;
+  padding: 12px 0;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem; 
+  padding: 2.4rem;
+  transition: all 250ms linear 0s;
+}
+
+header nav ul li a:hover {
+  background: rgba(255,255,255, 0.15)
+}
+
+h2 {
+  color: rgb(75, 75, 75);
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+}
+
+h3 {
+  color: rgb(75, 75, 75);
+  font-size: 2.8rem;
+  line-height: 3.8rem;
+}

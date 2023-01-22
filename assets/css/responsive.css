@@ -4,6 +4,29 @@ html {
     font-size: 50%;
 }
 
+@media (max-width: 400px) {
+  .person-card {
+      flex-direction: column;
+      gap: 12px;
+  }
+
+  .card-grid {
+    grid-template-columns: auto;
+  }
+
+  .person-picture {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+  }
+
+  .person-picture > img {
+    object-fit: cover;
+    transform: translateY(-25%);
+    border-radius: 8px;
+  }
+}
+
 @media (max-width: 630px) {
     iframe + p {
         margin-left: 30px;
@@ -20,6 +43,10 @@ html {
         order: -1;
         margin-left: auto !important;
         margin-right: auto;
+    }
+
+    section,main {
+        padding: 24px 8px;
     }
 }
 

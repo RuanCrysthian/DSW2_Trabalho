@@ -4,6 +4,7 @@
 :root {
   --primary-ufscar-theme-color: #F57F49;
   --secundary-color: #DEB887;
+  --secondary-background-color: #DEA487;
   --primary-color: #CD853F;
   --primary-background-color: #F5DEB3;
   --dark-text-color: rgb(0,0,0);
@@ -13,8 +14,6 @@
   --h1-font-size: 3rem;
   --h2-font-size: 2rem;
   --h3-font-size: 1.2rem;
-  --default-font-size: 1rem;
-  --sm-font-size: 0.9rem;
 
   --md-font-bold: 500;
   --font-semi-bold: 600;
@@ -93,6 +92,12 @@ header nav ul li a {
 
 header nav ul li a:hover {
   background: rgba(255,255,255, 0.15)
+}
+
+h1 {
+  color: rgb(75, 75, 75);
+  font-size: 4.4rem;
+  line-height: 5.4rem;
 }
 
 h2 {
@@ -252,6 +257,13 @@ FOOTER
   margin-right: 24px;
   width: 420px;
   height: 237px;
+}
+
+#footer p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+  color: #ecf0f1;
 }
 
 #footer .container {

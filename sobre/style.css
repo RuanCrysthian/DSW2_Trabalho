@@ -1,103 +1,91 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
-@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-:root {
-  --primary-ufscar-theme-color: #F57F49;
-  --secundary-color: #DEB887;
-  --primary-color: #CD853F;
-  --primary-background-color: #F5DEB3;
-  --dark-text-color: rgb(0,0,0);
-  --light-text-color: rgb(255,255,255);
 
-  --primary-font-family: 'Dosis', sans-serif;
-  --h1-font-size: 3rem;
-  --h2-font-size: 2rem;
-  --h3-font-size: 1.2rem;
-  --default-font-size: 1rem;
-  --sm-font-size: 0.9rem;
+.vacancy-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 16px;
+  background-color: var(--secondary-background-color);
+  padding: 16px;
 
-  --md-font-bold: 500;
-  --font-semi-bold: 600;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  outline: 0;
+.vacancy-name {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+  font-weight: 600;
 }
 
-html {
-  /* a cada 1rem considera 10px */
-  font-size: 62.5%;
+.vacancy-icon {
+  width: 24px;
+  height: 24px;
+
 }
 
-html,
-body {
-  height: 100vh;
-  font-family: var(--primary-font-family), "Source Sans Pro";
-  text-rendering: optimizelegibility;
-  -webkit-font-smoothing: antialiased;
-  background-color: var(--primary-background-color);
+.vacancy-description {
+  margin-bottom: auto;
+
 }
 
-body {
-  font-size: 1.6rem;
+.vacancy-period {
+  margin-top: 8px;
+  font-style: italic;
 }
 
-header {
-  background-color: var(--primary-color);
-}
-
-a {
-  text-decoration: none;
-}
-
-header .container {
+.person-card {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 90%;
-  max-width: 980px;
-  margin: auto;
+  gap: 24px;
+  border-radius: 16px;
+  background-color: var(--secundary-color);
+  padding: 16px;
 }
 
-header img {
-  width: 120px;
-  margin-left: 20px;
-  padding: 12px 0;
+.person-name {
+  font-weight: 600;
+  margin-bottom: 8px;
+
 }
 
-header nav ul {
+.person-picture {
+  min-width: 80px;
+  width: 80px;
+  height: 80px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  border-radius: 100vw;
+  overflow: hidden;
+}
+
+.person-picture > img {
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.card-grid {
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+section, main {
+  padding: 24px;
+}
+
+section,main {
+  margin: 8px 8px;
+}
+
+.section-title {
+  width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
 }
 
-header nav ul li {
-  list-style: none;
-}
+.section-description {
 
-header nav ul li a {
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-  font-size: 1.4rem; 
-  padding: 2.4rem;
-  transition: all 250ms linear 0s;
-}
-
-header nav ul li a:hover {
-  background: rgba(255,255,255, 0.15)
-}
-
-h2 {
-  color: rgb(75, 75, 75);
-  font-size: 3.6rem;
-  line-height: 4.6rem;
-}
-
-h3 {
-  color: rgb(75, 75, 75);
-  font-size: 2.8rem;
-  line-height: 3.8rem;
 }

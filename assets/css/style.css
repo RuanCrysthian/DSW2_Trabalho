@@ -294,12 +294,15 @@ about
 }
 
 .sponsors img {
-  width: 120px;
-  height: 100px;
+  width: 100px;
+  height: 80px;
   padding-left: 3rem;
   padding-bottom: 1rem;
 }
 
+.contact {
+  padding-left: 2rem;
+}
 
 .contact-form-emailInput {
 	border-top-left-radius: 5px;

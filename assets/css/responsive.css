@@ -48,6 +48,10 @@ html {
     section,main {
         padding: 24px 8px;
     }
+
+    .form-group {
+        display: block;
+    }
 }
 
 @media (max-width: 540px) {
@@ -137,7 +141,15 @@ html {
         margin-top: 30px;
     }
 
+<<<<<<< HEAD
     #about h3 {
+=======
+    #form h3 {
+        font-size: 2rem;
+    }
+
+    #footer h3 {
+>>>>>>> 7d9604c2e0e28be4d8b07b9ff23926e01fb2ac3c
         font-size: 2rem;
     }
 

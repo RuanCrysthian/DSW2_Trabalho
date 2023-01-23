@@ -58,7 +58,9 @@
         <h3>Formulário de contato para adoção</h3>
         <div class="form-group">
           <input class="input-control" placeholder="Nome" />
+        </div>
 
+        <div class="form-group">
           <input type="email" class="input-control" placeholder="Email" />
         </div>
 
@@ -79,25 +81,22 @@
   </main>
 
   <footer id="footer">
-    <section class="presentation">
-      <div class="container">
-        <iframe width="420" height="237" src="https://www.youtube.com/embed/P_GEkaLuhKk" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <div>
-          <p class="title">
-            Ufscat é uma ONG fundada em 2019 por um grupo de estudantes da
-            UFSCar com o propósito de resgatar gatos em situação de abandono,
-            maus tratos, e em situação de rua e prepará-los para adoção responsável.
-          </p>
-          <p>
-            O motivo para a criação da ONG foi tendo em vista quantidade de
-            gatos que encontram-se sem lar, e queríamos mostrar as pessoas
-            o quanto a adoção consciente e responsável salva a vida dos animais
-            e o quanto esses animais também nos salvam.
-          </p>
-        </div>
+    <section class="footer-container">
+      <div class="sponsors">
+        <img src="/assets/images/LogoUFSCAR.png" alt="Logo UFSCar">
+        <img src="/assets/images/LOGO-DC.svg" alt="Logo DC">
+      </div>
+
+      <div class="contact">
+        <form class="contact-form" action="#">
+					<fieldset>
+						<legend class="contact-form-legend" for="email-contato">Entre em contato conosco</legend>
+						<div class="contact-form-fieldset"> 
+							<input class="contact-form-emailInput" type="email" name="email-contato" id="email-contato">
+							<button class="contact-form-submit" type="submit">Enviar</button>
+						</div>
+					</fieldset>
+				</form>
       </div>
     </section>
   </footer>

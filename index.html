@@ -26,7 +26,7 @@
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/sobre">Sobre nós</a>
+              <a href="./sobre/index.html">Sobre nós</a>
             </li>
             <li>
               <a href="/adote">Adote</a>
@@ -161,10 +161,10 @@
       </a>
     </section>
 
-
+    
   </main>
 
-  <footer id="footer">
+  <section id="about">
     <section class="presentation">
       <div class="container">
         <iframe width="420" height="237" src="https://www.youtube.com/embed/P_GEkaLuhKk" title="YouTube video player"
@@ -186,9 +186,32 @@
         </div>
       </div>
     </section>
+  </section>
+
+  <footer id="footer">
+    <section class="footer-container">
+      <div class="sponsors">
+        <img src="./assets/images/LogoUFSCAR.png" alt="Logo UFSCar">
+        <img src="./assets/images/LOGO-DC.svg" alt="Logo DC">
+      </div>
+
+      <div class="contact">
+        <form class="contact-form" action="#">
+					<fieldset>
+						<legend class="contact-form-legend" for="email-contato">Entre em contato conosco</legend>
+						<div class="contact-form-fieldset"> 
+							<input class="contact-form-emailInput" type="email" name="email-contato" id="email-contato">
+							<button class="contact-form-submit" type="submit">Enviar</button>
+						</div>
+					</fieldset>
+				</form>
+      </div>
+    </section>
   </footer>
 
-  <script src="assets/js/main.js" />
+  
+
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>

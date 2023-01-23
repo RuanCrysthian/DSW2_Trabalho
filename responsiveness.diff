@@ -240,19 +240,19 @@ index 35b1ad7..00e6e8d 100644
    align-items: center;
  }
  
-@@ -235,8 +249,14 @@ FOOTER
+@@ -235,8 +249,14 @@ about
    justify-content: center;
  }
  
--#footer p {
+-#about p {
 -  margin-bottom: 30px
-+#footer iframe {
++#about iframe {
 +  margin-right: 24px;
 +  width: 420px;
 +  height: 237px;
 +}
 +
-+#footer .container {
++#about .container {
 +  margin: 0;
  }
  
